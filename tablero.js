@@ -27,7 +27,7 @@ function hayGanador(tablero) {
     if(tablero[0][2]!=0 && tablero[0][2]==tablero[1][1] && tablero[0][2]==tablero[2][0])
         return tablero[0][2]; 
 
-    return 1   
+    return 0  
 }
 
 
