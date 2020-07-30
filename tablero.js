@@ -39,7 +39,8 @@ function hayGanador(tablero) {
  * @param {number} columna Número de columna (de 0 a 2)
  */
 function hayHueco(tablero, fila, columna) {
-    return false; //TODO: falta implementar la lógica
+    if (tablero[fila][columna] == 0) return true;
+    else return false;
 }
 
 
