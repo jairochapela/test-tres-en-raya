@@ -43,3 +43,15 @@ describe("Determina el ganador", function () {
         ]), 2)
     })
 })
+
+
+describe("Hay hueco", function () {
+   
+    it ("Colocar ficha en 0,0 tablero vacío", function () {
+        assert.equal(hayHueco([
+            [0,0,0],
+            [0,0,0],
+            [0,0,0]
+        ], 0, 0), true) 
+    })
+})
